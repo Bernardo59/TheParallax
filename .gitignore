@@ -1,0 +1,5 @@
+/sass/node_modules
+/sass/.sass-cache
+/.vscode/
+/.cache
+.DS_Store

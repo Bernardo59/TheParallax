@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Parallax</title>
+    <meta charset="UTF-8">
+    <!-- Cascding Style Sheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Javascript-->
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/83f0e44082.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.example.com">   <!-- <===== CHANGE -->
+    <!-- Robots -->
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <!-- Device -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- Description -->
+    <meta name="description" content="Parallax website from W3Schools.">
+    <!-- Social -->
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quick Parcel Project — Home">
+    <meta name="twitter:description" content="Home description.">
+    <meta name="twitter:image" content="#">
+    <!-- Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com">
+    <meta property="og:title" content="Quick Parcel Project — Home">
+    <meta property="og:description" content="Home description.">
+    <meta property="og:image" content="#">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- Favicon -->
+    <meta name="theme-color" content="#fff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul id="navbar__menu">
+            <li><a href="#home" class="navbar__menu-item navbar__menu-home">HOME</a></li>
+            <li><a href="#about" class="navbar__menu-item navbar__menu-large"><i class="fa fa-user"></i>ABOUT</a></li>
+            <li><a href="#portfolio" class="navbar__menu-item navbar__menu-large"><i class="fa fa-th"></i>PORTFOLIO</a>
+            </li>
+            <li><a href="#contact" class="navbar__menu-item navbar__menu-large"><i
+                        class="fa fa-envelope"></i>CONTACT</a></li>
+            <li><a href="#search" class="navbar__menu-item navbar__menu-large navbar__menu-search"><i
+                        class="fa fa-search"></i></a></li>
+            <li><a href="javascript:void(0);" class="navbar__menu-item" id="navbar__menu-hamb"><i
+                        class="fa fa-bars"></i></a></li>
+        </ul>
+        <ul id="navbar__mobile">
+            <li><a href="#about" class="navbar__mobile-item">ABOUT</a></li>
+            <li><a href="#portfolio" class="navbar__mobile-item">PORTFOLIO</a></li>
+            <li><a href="#contact" class="navbar__mobile-item">CONTACT</a></li>
+            <li><a href="#" class="navbar__mobile-item">SEARCH</a></li>
+        </ul>
+    </nav>
+    <header class="header" id="home">
+        <div class="header__img"></div>
+        <h1 class="header__title">MY <span class="header__title-span">WEBSITE</span> LOGO</h1>
+    </header>
+
+    <section class="about" id="about">
+        <h1 class="about__title">ABOUT ME</h1>
+        <h2 class="about__subtitle">I love photography</h2>
+        <p class="about__designation">We have created a fictional "personal" website/blog, and our fictional
+            character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="about__me">
+            <div class="about__me-title-img">
+                <h3 class="about__me-title"><i class="fa fa-user"></i>My Name</h3>
+                <br>
+                <img src="./assets/avatar_hat.jpg" alt="Regardez moi comme je suis belle" class="about__me-img">
+            </div>
+            <p class="about__me-description">
+                Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+        <h3 class="about__goodat">I'm really good at:</h3>
+        <div class="about__skills">
+            <div class="about__skills-card">
+                <div class="about__skills-card-skill"><i class="fa fa-camera"></i>Photography</div>
+                <div class="about__skills-card-skill-bar-bg">
+                    <div class="about__skills-card-skill-bar percent90">90%</div>
+                </div>
+
+            </div>
+            <div class="about__skills-card">
+                <div class="about__skills-card-skill"><i class="fa fa-laptop"></i>Web Design</div>
+                <div class="about__skills-card-skill-bar-bg">
+                    <div class="about__skills-card-skill-bar percent85">85%</div>
+                </div>
+            </div>
+            <div class="about__skills-card">
+                <div class="about__skills-card-skill"><i class="fa fa-photo"></i>Photoshop</div>
+                <div class="about__skills-card-skill-bar-bg">
+                    <div class="about__skills-card-skill-bar percent75">75%</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="partner">
+            <div class="partner-card">
+                <h4 class="partner-card-title">14+</h4>
+                <p class="partner-card-p">Partners</p>
+            </div>
+            <div class="partner-card">
+                <h4 class="partner-card-title">55+</h4>
+                <p class="partner-card-p">Projects Done</p>
+            </div>
+            <div class="partner-card">
+                <h4 class="partner-card-title">89+</h4>
+                <p class="partner-card-p">Happy Clients</p>
+            </div>
+            <div class="partner-card">
+                <h4 class="partner-card-title">150+</h4>
+                <p class="partner-card-p">Meetings</p>
+            </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio__img">
+            <p class="portfolio__img-title">PORTFOLIO</p>
+        </div>
+        <h1 class="portfolio__title">MY WORK</h1>
+        <h2 class="portfolio__subtitle">Here are some of my latest lorem work ipsum tipsum. <br>
+            Click on the images to make them bigger
+        </h2>
+        <div class="portfolio__grid">
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p1.jpg" alt="Cloud" class="portfolio__grid-picture-img">
+            </div>
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p2.jpg" alt="Cofee" class="portfolio__grid-picture-img">
+            </div>
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p3.jpg" alt="Pedobear" class="portfolio__grid-picture-img">
+            </div>
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p4.jpg" alt="unknow" class="portfolio__grid-picture-img">
+            </div>
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p5.jpg" alt="Cloud" class="portfolio__grid-picture-img">
+            </div>
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p6.jpg" alt="Machine a ecrire" class="portfolio__grid-picture-img">
+            </div>
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p7.jpg" alt="Train" class="portfolio__grid-picture-img">
+            </div>
+            <div class="portfolio__grid-picture">
+                <img src="./assets/p8.jpg" alt="Magnifique lac..." class="portfolio__grid-picture-img">
+            </div>
+        </div>
+
+        <div class="portfolio__btn-more">
+            <a href="#">LOAD MORE</a>
+        </div>
+    </section>
+    <div id="portfolio__grid-extend">
+        <div class="portfolio__grid-extend-container">
+            <a href="javascript:void(0);" id="portfolio__grid-extend-container-a"><i class="fa-solid fa-xmark fa-xl"></i></a>
+            <img src="assets/p1.jpg" id="portfolio__grid-extend-container-img">
+            <p id="portfolio__grid-extend-container-p">OK</p>
+        </div>
+
+    </div>
+    <section class="contact" id="contact">
+        <div class="contact__img">
+            <h1 class="contact__img-title">CONTACT</h1>
+        </div>
+        <div class="contact__where">
+            <h1 class="contact__where-title">WHERE I WORK</h1>
+            <h2 class="contact__where-subtitle">I'd love your feedback!</h2>
+            <img src="./assets/map.jpg" alt="Superbe Map!" class="contact__where-map">
+            <div class="contact__where-infos">
+                <h3 class="contact__where-infos-adress"><i class="fa fa-map-marker"></i>Chicago, US</h3><br>
+                <h3 class="contact__where-infos-phone"><i class="fa fa-phone"></i>Phone: +00 151515</h3><br>
+                <h3 class="contact__where-infos-mail"><i class="fa fa-envelope"></i>Email: <a
+                        href="mailto:email@mail.com">email@mail.com</a></h3><br>
+            </div>
+            <p class="contact__where-p">Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+            <form action="" class="contact__where-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea id="story" name="story" rows="5" cols="33" placeholder="Message"></textarea>
+                <button type="submit"><i class="fa fa-paper-plane"></i>SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="#home" class="footer__btn"><i class="fa fa-arrow-up"></i>To the top</a>
+        <div class="footer__social">
+            <a href="#" class="footer__social-icon"><i class="fa fa-facebook-official"></i></a>
+            <a href="#" class="footer__social-icon"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="footer__social-icon"><i class="fa fa-snapchat"></i></a>
+            <a href="#" class="footer__social-icon"><i class="fa fa-pinterest-p"></i></a>
+            <a href="#" class="footer__social-icon"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="footer__social-icon"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p class="footer__p">Powered by <a href="https://github.com/Bernardo59">Bernardo 59</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+@mixin position__navbar-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+@mixin flex__row-nowrap-space-between {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex__column-nowrap-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin position__absolute-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@mixin title {
+    font-size: $font-size-title;
+    font-weight: 300;
+    margin: 0.8em 0;
+}
+
+@mixin subtitle {
+    font-size: $font-size-subtitle;
+    font-weight: 300;
+    margin: 0.8em 0;
+    font-style: italic;
+}
+
+
+@mixin size-container-large {
+    max-width: 980px;
+    margin: auto;
+    // padding: 0em 1em;
+}
